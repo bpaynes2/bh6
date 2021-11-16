@@ -140,4 +140,5 @@ Release 2.0.0 for Gen3: <a href="https://artifactory.kinovaapps.com/artifactory/
 |  |  |
 | ---: | --- |
 | Kinova home page: | [https://www.kinovarobotics.com](https://www.kinovarobotics.com)|
-| Google Protocol Buffers home page: | [https://developers.google.com/protocol-buffers](https://developers.google.com/protocol-buffers) |
+| Google Protocol Buffers home page: | [https://developers.google.com/protocol-buffers](https://developers.google.com/protocol-buffers) |#   b h 6  
+ 
