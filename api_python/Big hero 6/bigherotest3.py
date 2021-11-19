@@ -234,7 +234,10 @@ class GripperCommandExample:
 
 
 def main():
-
+    #endX = float(endX)
+    #endY = float(endY)
+    #endZ = float(endZ)
+    #print(endX, endY, endZ)
     #homeX, homeY, homeZ = 0.575, 0.014, 0.434
     #startX, startY, startZ = [float(s) for s in input("Enter the coordiantes your object is currently located at (x, y, z): ").split()]
     endX, endY, endZ = [float(s) for s in input("Enter the coordinates you would like to drop your object off at (x, y, z): ").split()]
@@ -270,6 +273,7 @@ def main():
         success, pickUpX = move_to_object(base, 0.572, min)
         example = GripperCommandExample(router)
         example.SendGripperCommands()
+        
         success &= move_vertical(base,-0.434, -0.137)
         success = move_horizontal(base, pickUpY, endY)
         success = move_forward(base, pickUpX, endX)

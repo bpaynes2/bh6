@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Hero 6</title>
+    <h1>Big Hero 6</h1>
+</head>
+<body>
+    <form action = "/run/" id = "coordinates" method="post">
+        <input type = "text" name = "x" placeholder="Enter x" required></input>
+        <input type = "text" name = "y" placeholder="Enter y" required></input>
+        <input type = "text" name = "z" placeholder="Enter z" required></input>
+        <input type="button" value = "Submit"></input>
+    </form>
+
+    <script>
+        function runRobot() {
+            x = document.getElementsByName("x").values
+            y = document.getElementsByName("y").values
+            z = document.getElementsByName("z").values
+        }
+    </script>
+</body>
+</html>
